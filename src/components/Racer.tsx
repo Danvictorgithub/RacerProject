@@ -4,7 +4,7 @@ export default function Racer() {
         <>
             <div className="w-full h-[100vh] flex flex-col p-12">
                 <div className="flex flex-col w-[335px] pb-16">
-                        <h1 className="font-black text-3xl">CSU Warrior Keyboards</h1>
+                        <h1 className="font-black text-3xl">CSU Keyboard Warriors</h1>
                         <p className="self-end text-xl font-medium">Typing Test</p>
                     </div>
                 <div className="flex flex-col h-full items-center">
