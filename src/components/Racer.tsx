@@ -1,4 +1,21 @@
+import { useEffect } from "react";
+import GenerateParagraph from "./GenerateParagraph";
+import { letters } from "./GenerateParagraph";
+import Typing from "./Typing";
+
 export default function Racer() {
+
+  useEffect( () => {
+
+    // Function to handle the click event
+    function handleClick(event : any) {
+        console.log("Mouse clicked at X:", event.clientX, "Y:", event.clientY);
+    }
+    
+    // Add a click event listener to the entire document
+    document.addEventListener("click", handleClick);
+    
+  }, [])
 
     return (
         <>
@@ -12,8 +29,9 @@ export default function Racer() {
                             <h2 className="text-2xl font-bold">WPM</h2>
                             <p className="text-6xl font-black">200</p>
                         </div>
-                        <div className="flex justify-center align p-6 max-w-5xl">
-                            <p className="text-2xl font-mono  font-semibold">VISION A globally-engaged University excelling in science, engineering and the arts. MISSION Caraga State University endeavors to produce globally-competitive and socially responsible human capital towards the sustainable and inclusive development of Caraga Region and beyond.</p>
+                        <div className="flex justify-center relative align p-6 max-w-5xl">
+                            <GenerateParagraph />
+                            <Typing letters={letters} />
                         </div>
                 </div>
             </div>
