@@ -1,12 +1,10 @@
 import './App.css'
 import KeyPressRegister from './components/KeyPressRegister'
-
+import Racer from './components/Racer'
 function App() {
   return (
     <>
-      <h1>Racer Project Collab</h1>
-      <h2>Hello DAN GWAPO!</h2>
-      <KeyPressRegister />
+      <Racer/>
     </>
   )
 }
