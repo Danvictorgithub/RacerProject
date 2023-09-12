@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import GenerateParagraph from "./GenerateParagraph";
-import { letters } from "./GenerateParagraph";
+//import GenerateParagraph from "./GenerateParagraph";
+//import { letters } from "./GenerateParagraph";
 import Typing from "./Typing";
 
 export default function Racer() {
@@ -30,8 +30,8 @@ export default function Racer() {
                             <p className="text-6xl font-black">200</p>
                         </div>
                         <div className="flex justify-center relative align p-6 max-w-5xl">
-                            <GenerateParagraph />
-                            <Typing letters={letters} />
+                            {/* <GenerateParagraph /> */}
+                            <Typing />
                         </div>
                 </div>
             </div>
