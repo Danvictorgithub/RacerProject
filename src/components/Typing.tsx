@@ -38,7 +38,7 @@ export default function Typing( ) {
   return (
     <>
     <div id="paragraph" onKeyDown={handleKeyDown} className='flex flex-wrap  p-6  max-w-screen-xl'>
-        <input id="raceInput" type="text" className=" absolute top-4 w-64" />
+        <input placeholder="Press here to start typing" id="raceInput" type="text" className=" absolute top-4 w-64" />
         {words.map((word, index) => {
             let spanRefsInWord: React.RefObject<HTMLSpanElement>[] = [];
             //each word, we break down its characters and push each character to the spanRefArray
