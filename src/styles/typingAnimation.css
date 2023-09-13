@@ -1,0 +1,32 @@
+/* Add this to your CSS */
+@keyframes backgroundChange {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  .correct-style {
+    background-color: green;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .correct-style::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Start with 100% width */
+    height: 100%;
+    background-color: rgba(0, 255, 0, 0.5); /* Semi-transparent green */
+    animation: backgroundChange 5s linear; /* Adjust the duration as needed */
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    z-index: -1;
+    pointer-events: none;
+    transition: width 5s ease-in-out; /* Smooth out the transition */
+  }
+  
