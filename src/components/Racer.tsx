@@ -12,7 +12,7 @@ export default function Racer() {
         console.log("Mouse clicked at X:", event.clientX, "Y:", event.clientY);
     }
     
-    // Add a click event listener to the entire document
+    // Add a click event listener to the entire documents
     document.addEventListener("click", handleClick);
     
   }, [])
