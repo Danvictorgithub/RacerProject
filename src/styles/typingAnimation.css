@@ -14,6 +14,11 @@
     overflow: hidden;
   }
   
+  .wrong-style{
+    background-color: red;
+    position: relative;
+    overflow: hidden;
+  }
   .correct-style::before {
     content: "";
     position: absolute;
