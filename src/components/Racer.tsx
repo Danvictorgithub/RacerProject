@@ -39,7 +39,7 @@ export default function Racer() {
                 </div>
             </div>
             <div className="p-12">
-                <h2 className="font-black text-3xl">Leaderboads</h2>
+                <h2 className="font-black text-3xl">Leaderboards</h2>
                 {/* Task ni Lendel */}
             </div>
         </>
