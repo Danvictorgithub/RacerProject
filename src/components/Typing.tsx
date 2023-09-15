@@ -52,7 +52,7 @@ export default function Typing( ) {
 
     const letters : string[] = paragraph.split("")
     const words : string[] = paragraph.split(" ")
-    const cursorRef = useRef<HTMLSpanElement  | null>(null);
+   // const cursorRef = useRef<HTMLSpanElement  | null>(null);
 
     //focus the paragraph div for keypress
     useEffect(() => {
