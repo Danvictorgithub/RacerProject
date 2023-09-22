@@ -39,8 +39,9 @@ export default function Racer() {
                 </div>
             </div>
             <div className="p-12">
-                <h2 className="font-black text-3xl">Leaderboards</h2>
+                <h2 className="font-black text-3x1">Leaderboards</h2>
                 {/* Task ni Lendel */}
+                <h3> idk typescript lol </h3>
             </div>
         </>
     );
