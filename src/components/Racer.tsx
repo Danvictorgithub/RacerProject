@@ -39,9 +39,28 @@ export default function Racer() {
                 </div>
             </div>
             <div className="p-12">
-                <h2 className="font-black text-3x1">Leaderboards</h2>
+                <h2 className="font-black text-3xl" style={{display: 'flex', justifyContent: 'center', margin: '20px'}}>Leaderboards</h2>
                 {/* Task ni Lendel */}
-                <h3> idk typescript lol </h3>
+                <div style={{display: 'flex', justifyContent: 'center'}}>
+                <div className="font-black text">
+                    {/*leaderboard header*/}
+                    <div className="leaderBoard-entry">
+                    <h3 style={{display: 'inline-block', border: '1px solid black', padding: '5px', margin: '0', width: '55px', textAlign:'center'}}>#</h3>
+                    <h3 style={{display: 'inline-block', border: '1px solid black', padding: '5px', margin: '0', width: '450px' }}>Name</h3>
+                    <h3 style={{display: 'inline-block', border: '1px solid black', padding: '5px', margin: '0', width: '120px'}}>Speed</h3>
+                    <h3 style={{display: 'inline-block', border: '1px solid black', padding: '5px', margin: '0', width: '230px'}}>Time</h3>
+                    </div>
+                    {/*leaderboard entry*/}
+                    <div className="leaderBoard-entry">
+                    <h3 style={{display: 'inline-block', border: '1px solid black', padding: '5px', margin: '0', width: '55px', textAlign:'center'}}>1</h3>
+                    <h3 style={{display: 'inline-block', border: '1px solid black', padding: '5px', margin: '0', width: '450px' }}>Dan</h3>
+                    <h3 style={{display: 'inline-block', border: '1px solid black', padding: '5px', margin: '0', width: '120px'}}>190wpm</h3>
+                    <h3 style={{display: 'inline-block', border: '1px solid black', padding: '5px', margin: '0', width: '230px'}}>53 minutes ago</h3>
+                    </div>
+                </div>
+                </div>
+                
+
             </div>
         </>
     );
